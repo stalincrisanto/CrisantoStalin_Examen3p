@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended:true}));
 
 app.get("/",(req,res)=>{
-    res.json({message:"EDUTIC"});
+    res.json({message:"INICIADO EL SERVIDOR"});
 });
 
 app.use(function (req, res, next) {
